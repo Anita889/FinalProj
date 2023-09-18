@@ -1053,99 +1053,187 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="305" parent="303" name="id">
+    <table id="305" parent="298" name="roles">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="306" parent="298" name="users">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="307" parent="298" name="users_roles">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="308" parent="303" name="id">
       <AutoIncrement>7</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="306" parent="303" name="content">
+    <column id="309" parent="303" name="content">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="307" parent="303" name="created_on">
+    <column id="310" parent="303" name="created_on">
       <DasType>datetime(6)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="308" parent="303" name="photo_url">
+    <column id="311" parent="303" name="photo_url">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="309" parent="303" name="title">
+    <column id="312" parent="303" name="title">
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="310" parent="303" name="updated_onl">
+    <column id="313" parent="303" name="updated_onl">
       <DasType>datetime(6)|0s</DasType>
       <Position>6</Position>
     </column>
-    <index id="311" parent="303" name="PRIMARY">
+    <index id="314" parent="303" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="312" parent="303" name="PRIMARY">
+    <key id="315" parent="303" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="313" parent="304" name="id">
+    <column id="316" parent="304" name="id">
+      <AutoIncrement>4</AutoIncrement>
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="317" parent="304" name="created_on">
+      <DasType>datetime(6)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="318" parent="304" name="end_time">
+      <DasType>datetime(6)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="319" parent="304" name="name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="320" parent="304" name="start_time">
+      <DasType>datetime(6)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="321" parent="304" name="type">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="322" parent="304" name="updated_on">
+      <DasType>datetime(6)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="323" parent="304" name="club_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="324" parent="304" name="photo_url">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="325" parent="304" name="FK8meg6nvkeiw3li6ufg06xww2d">
+      <ColNames>club_id</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>clubs</RefTableName>
+    </foreign-key>
+    <index id="326" parent="304" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="327" parent="304" name="FK8meg6nvkeiw3li6ufg06xww2d">
+      <ColNames>club_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="328" parent="304" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="329" parent="305" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="314" parent="304" name="created_on">
-      <DasType>datetime(6)|0s</DasType>
+    <column id="330" parent="305" name="name">
+      <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="315" parent="304" name="end_time">
-      <DasType>datetime(6)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="316" parent="304" name="name">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="317" parent="304" name="start_time">
-      <DasType>datetime(6)|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <column id="318" parent="304" name="type">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>6</Position>
-    </column>
-    <column id="319" parent="304" name="updated_on">
-      <DasType>datetime(6)|0s</DasType>
-      <Position>7</Position>
-    </column>
-    <column id="320" parent="304" name="club_id">
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>8</Position>
-    </column>
-    <column id="321" parent="304" name="photo_url">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>9</Position>
-    </column>
-    <foreign-key id="322" parent="304" name="FK8meg6nvkeiw3li6ufg06xww2d">
-      <ColNames>club_id</ColNames>
-      <RefColNames>id</RefColNames>
-      <RefTableName>clubs</RefTableName>
-    </foreign-key>
-    <index id="323" parent="304" name="PRIMARY">
+    <index id="331" parent="305" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="324" parent="304" name="FK8meg6nvkeiw3li6ufg06xww2d">
-      <ColNames>club_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="325" parent="304" name="PRIMARY">
+    <key id="332" parent="305" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
+    <column id="333" parent="306" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="334" parent="306" name="email">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="335" parent="306" name="password">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="336" parent="306" name="username">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="337" parent="306" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="338" parent="306" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="339" parent="307" name="user_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="340" parent="307" name="role_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="341" parent="307" name="FK2o0jvgh89lemvvo17cbqvdxaa">
+      <ColNames>user_id</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>users</RefTableName>
+    </foreign-key>
+    <foreign-key id="342" parent="307" name="FKj6m8fwv7oqv74fcehir1a9ffy">
+      <ColNames>role_id</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>roles</RefTableName>
+    </foreign-key>
+    <index id="343" parent="307" name="FK2o0jvgh89lemvvo17cbqvdxaa">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="344" parent="307" name="FKj6m8fwv7oqv74fcehir1a9ffy">
+      <ColNames>role_id</ColNames>
+      <Type>btree</Type>
+    </index>
   </database-model>
 </dataSource>

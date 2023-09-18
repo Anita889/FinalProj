@@ -5,63 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5452e5d0-d232-4232-ac5e-778c50793406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cfc5811b-fbb5-43fe-a32c-9bb5b3e3769b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cfc5811b-fbb5-43fe-a32c-9bb5b3e3769b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cfc5811b-fbb5-43fe-a32c-9bb5b3e3769b/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cfc5811b-fbb5-43fe-a32c-9bb5b3e3769b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cfc5811b-fbb5-43fe-a32c-9bb5b3e3769b/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/FinalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/controller/ClubController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/dto/ClubDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/dto/EventDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/models/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/models/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/repository/ClubRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/repository/EventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/ClubService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/serviceimpl/ClubServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/serviceimpl/EventServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/clubs-create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/clubs-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/clubs-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/clubs-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/events-create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/FinalApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/controller/ClubController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/controller/EventController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/ClubDto$ClubDtoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/ClubDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/EventDto$EventDtoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/EventDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Club$ClubBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Club.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Event$EventBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Event.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/repository/ClubRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/repository/EventRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/ClubService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/EventService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/serviceimpl/ClubServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/serviceimpl/EventServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/dto/RegistrationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/mapper/ClubMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/mapper/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/models/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/security/CustomUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/serviceimpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/events-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/events-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/events-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfc5811b-fbb5-43fe-a32c-9bb5b3e3769b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfc5811b-fbb5-43fe-a32c-9bb5b3e3769b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/FinalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/FinalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/controller/ClubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/controller/ClubController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/dto/ClubDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/dto/ClubDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/dto/EventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/dto/EventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/models/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/models/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/models/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/serviceimpl/ClubServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/serviceimpl/ClubServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/serviceimpl/EventServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FINAL/service/serviceimpl/EventServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/clubs-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/clubs-create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/clubs-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/clubs-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/clubs-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/clubs-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/clubs-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/clubs-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/events-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/events-create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/FinalApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/FinalApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/controller/ClubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/controller/ClubController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/controller/EventController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/controller/EventController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/ClubDto$ClubDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/ClubDto$ClubDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/ClubDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/ClubDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/EventDto$EventDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/EventDto$EventDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/EventDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/dto/EventDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Club$ClubBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Club$ClubBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Club.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Club.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Event$EventBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Event$EventBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/models/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/repository/ClubRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/repository/ClubRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/repository/EventRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/repository/EventRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/ClubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/ClubService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/EventService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/serviceimpl/ClubServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/serviceimpl/ClubServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/serviceimpl/EventServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/FINAL/service/serviceimpl/EventServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +77,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="CSS File" />
         <option value="Class" />
         <option value="HTML File" />
       </list>
@@ -79,6 +85,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.11/spring-context-6.0.11-sources.jar!/org/springframework/context/annotation/Import.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -92,43 +101,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HP/AppData/Local/Temp/FINAL",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "spring.configuration.checksum": "6c8361dc2036c0559376fe4957699f69",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/AppData/Local/Temp/FINAL&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6c8361dc2036c0559376fe4957699f69&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.FINAL.security" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\AppData\Local\Temp\FINAL\src\main\resources\templates" />
       <recent name="C:\Users\HP\AppData\Local\Temp\FINAL\src\main\resources\templates\events" />
       <recent name="C:\Users\HP\AppData\Local\Temp\FINAL\src\main\resources\templates\clubs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FinalApplication">
+    <configuration name="FinalApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="FINAL" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.FINAL.FinalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FinalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="FINAL" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.FINAL.FinalApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,7 +196,45 @@
       <workItem from="1693847317894" duration="2630000" />
       <workItem from="1694018628500" duration="9603000" />
       <workItem from="1694104102526" duration="9046000" />
-      <workItem from="1694170328017" duration="1829000" />
+      <workItem from="1694170328017" duration="3359000" />
+      <workItem from="1694256434944" duration="3198000" />
+      <workItem from="1694265133421" duration="94000" />
+      <workItem from="1694265240131" duration="27000" />
+      <workItem from="1694265327240" duration="883000" />
+      <workItem from="1694266365605" duration="588000" />
+      <workItem from="1694267022367" duration="6599000" />
+      <workItem from="1694288594139" duration="1091000" />
+      <workItem from="1694338958330" duration="4595000" />
+      <workItem from="1694353928543" duration="145000" />
+      <workItem from="1694355039762" duration="13000" />
+      <workItem from="1694360726171" duration="1868000" />
+      <workItem from="1694415559818" duration="804000" />
+      <workItem from="1694418727969" duration="47000" />
+      <workItem from="1694418954979" duration="856000" />
+      <workItem from="1694420988644" duration="236000" />
+      <workItem from="1694450276208" duration="11318000" />
+      <workItem from="1694522223954" duration="2740000" />
+      <workItem from="1694540368690" duration="3858000" />
+      <workItem from="1694624694999" duration="5830000" />
+      <workItem from="1694667974288" duration="923000" />
+      <workItem from="1694689108161" duration="8116000" />
+      <workItem from="1694761941670" duration="81000" />
+      <workItem from="1694763069726" duration="21000" />
+      <workItem from="1694772805367" duration="4346000" />
+      <workItem from="1694777401915" duration="142000" />
+      <workItem from="1694853353929" duration="16000" />
+      <workItem from="1694857396767" duration="7912000" />
+      <workItem from="1694882488196" duration="12677000" />
+      <workItem from="1694934609876" duration="3448000" />
+      <workItem from="1694948015433" duration="622000" />
+      <workItem from="1694949669392" duration="3592000" />
+      <workItem from="1694975443852" duration="7470000" />
+      <workItem from="1695024111093" duration="2348000" />
+      <workItem from="1695029344839" duration="16000" />
+      <workItem from="1695029428894" duration="8000" />
+      <workItem from="1695029592112" duration="7000" />
+      <workItem from="1695041704887" duration="725000" />
+      <workItem from="1695046144847" duration="54000" />
     </task>
     <servers />
   </component>
@@ -181,7 +259,16 @@
           <properties class="org.thymeleaf.exceptions.TemplateInputException" package="org.thymeleaf.exceptions" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/FINAL/service/serviceimpl/UserServiceImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
